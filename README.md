@@ -24,8 +24,6 @@ A Flutter app that combines a versatile calculator with a multi-unit converter, 
 
 ## Project Setup
 
-### Prerequisites
-
 - [Flutter SDK](https://docs.flutter.dev/get-started/install) >= 3.9.0  
 
 ### Clone Repository
