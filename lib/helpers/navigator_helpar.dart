@@ -1,4 +1,3 @@
-import 'package:calculator_flutter/screens/bmi_calc_screen.dart';
 import 'package:calculator_flutter/screens/calculator_screen.dart';
 import 'package:calculator_flutter/screens/unit_converter_screen.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +15,6 @@ class _BottomNavExampleState extends State<BottomNav> {
   final List<Widget> _pages = [
     Center(child: CalculatorScreen()),
     Center(child: ConverterScreen()),
-    Center(child: BMIScreen()),
   ];
 
   @override
@@ -36,10 +34,6 @@ class _BottomNavExampleState extends State<BottomNav> {
           BottomNavigationBarItem(
             icon: Icon(Icons.change_circle),
             label: "Conert",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.health_and_safety),
-            label: "BMI",
           ),
         ],
       ),

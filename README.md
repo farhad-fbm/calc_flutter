@@ -1,16 +1,38 @@
-# calculator_flutter
+# Calculator & Unit Converter
 
-A new Flutter project.
+A Flutter app that combines a versatile calculator with a multi-unit converter, providing a sleek and interactive interface for daily use.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Calculator**  
+  - Basic arithmetic: addition, subtraction, multiplication, division  
+  - Advanced operations: percentage, power, square root  
+  - Clear and backspace functions  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Unit Converter**  
+  - Convert between multiple units: length, weight, volume, temperature  
+  - Supports multiple input formats (e.g., feet + inches for height)  
+  - Real-time conversion results  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Persistent & Interactive UI**  
+  - Clean design optimized for mobile screens  
+  - User-friendly interface with responsive input  
+
+---
+
+## Project Setup
+
+### Prerequisites
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) >= 3.9.0  
+- Android Studio or Xcode (for iOS development)  
+- Dart >= 3.9.0  
+- Device or emulator for testing  
+
+### Clone Repository
+
+```bash
+git clone https://github.com/yourusername/calculator_unit_converter.git
+cd calculator_unit_converter
